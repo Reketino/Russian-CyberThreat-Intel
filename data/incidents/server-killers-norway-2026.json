@@ -1,0 +1,37 @@
+{
+  "id": "IN-002",
+  "title": "Server Killers declares cyberwar on Norway",
+  "date": {
+    "start": "2026-08-24",
+    "end": null,
+    "date_precision": "exact"
+  },
+  "status": "reported",
+  "incident_type": [
+    "ddos"
+  ],
+  "summary": "Server Killers publicly declared cyberwar against Norway and claimed responsibility for DDoS attacks targeting Norwegian public digital services.",
+  "affected_sectors": [
+    "government",
+    "public-services"
+  ],
+  "affected_countries": [
+    "Norway"
+  ],
+  "impact": [
+    "Disruption of Norwegian public digital services",
+    "Multiple government services experienced availability issues",
+    "No confirmed data breach reported"
+  ],
+  "attributions": [
+    {
+      "threat_actor_id": "TA-001",
+      "claim_status": "claimed-responsibility",
+      "assessment": "Server Killers claimed responsibility for the DDoS campaign. The attribution has not been independently confirmed."
+    }
+  ],
+  "source_ids": [
+    "SRC-007"
+  ],
+  "last_updated": "2026-11-06"
+}

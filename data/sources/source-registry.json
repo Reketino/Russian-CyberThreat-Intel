@@ -1,0 +1,65 @@
+[
+  {
+    "id": "SRC-001",
+    "publisher": "The Record by Recorded Future News",
+    "title": "Second wave of suspected cyberattacks hits supermarket freezers across Europe",
+    "url": "https://therecord.media/cyberattack-grocery-freezers-europe",
+    "published_at": "2026-11-02",
+    "source_type": "news-report",
+    "notes": "Reports the November 2 wave and states that the perpetrators had not been identified; no group had claimed responsibility at the time of publication."
+  },
+  {
+    "id": "SRC-002",
+    "publisher": "RTÉ News",
+    "title": "How did supermarket fridges become a target for hackers?",
+    "url": "https://www.rte.ie/news/primetime/2026/1105/1598007-clarity-supermarket-cyberattack/",
+    "published_at": "2026-11-05",
+    "source_type": "news-report",
+    "notes": "Reports claims by NoName057(16) and Z-Pentest Alliance, while explicitly noting that their involvement has not been independently established."
+  },
+  {
+    "id": "SRC-003",
+    "publisher": "Associated Press",
+    "title": "Supermarket freezers in several European countries hit by apparent cyberattacks",
+    "url": "https://apnews.com/article/a8ea5b30d67da47957769f29101fe686",
+    "published_at": "2026-11-03",
+    "source_type": "news-report",
+    "notes": "Reports refrigeration-system disruptions across several European countries."
+  },
+  {
+    "id": "SRC-004",
+    "publisher": "GitHub",
+    "title": "ServerKillers public GitHub profile",
+    "url": "https://github.com/ServerKillers",
+    "published_at": null,
+    "source_type": "primary-source",
+    "notes": "A public account using the ServerKillers name. Account ownership or control by the group has not been independently verified."
+  },
+  {
+    "id": "SRC-005",
+    "publisher": "GitHub",
+    "title": "ServerKillers/Kraken repository",
+    "url": "https://github.com/ServerKillers/Kraken",
+    "published_at": null,
+    "source_type": "primary-source",
+    "notes": "Public repository metadata indicates a Python repository. Code has not been reviewed; do not execute it."
+  },
+  {
+    "id": "SRC-006",
+    "publisher": "Reuters",
+    "title": "Cyberattack on fridges hits supermarkets across Europe",
+    "url": "https://www.fidelity.com/news/article/default/202611020427RTRSNEWSCOMBINED_KCN3WD10C-OUSWD_1",
+    "published_at": "2026-11-02",
+    "source_type": "news-report",
+    "notes": "Reuters reporting on the November 2 incident and affected retailers."
+  },
+  {
+  "id": "SRC-007",
+  "publisher": "The Barents Observer",
+  "title": "Pro-Russian hackers declare ‘cyberwar’ on Norway",
+  "url": "https://www.thebarentsobserver.com/news/prorussian-hackers-declare-cyberwar-on-norway/456591",
+  "published_at": "2026-08-26",
+  "source_type": "news-report",
+  "notes": "Reports a DDoS campaign targeting Norwegian government digital services beginning on August 24, 2026. Server Killers claimed responsibility, but independent confirmation of the group's involvement was lacking."
+}
+]

@@ -1,0 +1,24 @@
+{
+  "id": "TA-002",
+  "name": "NoName057(16)",
+  "aliases": [
+    "NoName05716",
+    "NoName057(16)"
+  ],
+  "category": "hacktivist",
+  "claimed_affiliation": "Pro-Russian",
+  "attribution": {
+    "status": "unknown",
+    "confidence": "unknown",
+    "summary": "Public reporting describes the group as pro-Russian. This indicates reported political alignment only; it does not establish state direction, control, or responsibility for any specific incident."
+  },
+  "description": "A pro-Russian hacktivist group widely reported for disruptive cyber campaigns, particularly distributed denial-of-service activity.",
+  "known_activity": [
+    "Reported DDoS campaigns against public and private-sector websites"
+  ],
+  "digital_footprints": [],
+  "source_ids": [
+    "SRC-002"
+  ],
+  "last_updated": "2026-11-06"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/cyberthreat-intel/schema/incident.schema.json",
+  "title": "Cyber Incident",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "date", "status", "incident_type", "summary", "affected_sectors", "affected_countries", "attributions", "source_ids", "last_updated"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^IN-[0-9]{3,}$"},
+    "title": {"type": "string", "minLength": 1},
+    "date": {"type": "object", "additionalProperties": false, "required": ["start", "end", "date_precision"], "properties": {"start": {"type": "string", "format": "date"}, "end": {"type": ["string", "null"], "format": "date"}, "date_precision": {"enum": ["exact", "approximate", "reported-period"]}}},
+    "status": {"enum": ["reported", "under-investigation", "confirmed", "disputed"]},
+    "incident_type": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "summary": {"type": "string", "minLength": 1},
+    "affected_sectors": {"type": "array", "items": {"type": "string"}},
+    "affected_countries": {"type": "array", "items": {"type": "string"}},
+    "impact": {"type": "array", "items": {"type": "string"}},
+    "attributions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["threat_actor_id", "claim_status", "assessment"], "properties": {"threat_actor_id": {"type": "string", "pattern": "^TA-[0-9]{3,}$"}, "claim_status": {"enum": ["claimed-responsibility", "reported-by-third-party", "officially-attributed", "not-attributed"]}, "assessment": {"type": "string", "minLength": 1}}}},
+    "source_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "last_updated": {"type": "string", "format": "date"}
+  }
+}

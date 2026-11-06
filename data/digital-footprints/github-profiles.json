@@ -1,0 +1,25 @@
+[
+  {
+    "id": "GH-001",
+    "platform": "GitHub",
+    "account_name": "ServerKillers",
+    "profile_url": "https://github.com/ServerKillers",
+    "associated_actor_id": "TA-001",
+    "association_status": "unverified",
+    "description": "Public GitHub account using the ServerKillers name.",
+    "repositories": [
+      {
+        "name": "Kraken",
+        "url": "https://github.com/ServerKillers/Kraken",
+        "language": "Python",
+        "description": "Public Python repository. Code has not been reviewed."
+      }
+    ],
+    "source_ids": [
+      "SRC-004",
+      "SRC-005"
+    ],
+    "last_checked": "2026-11-06",
+    "notes": "The account and repository exist publicly, but ownership or control by the Server Killers threat actor has not been independently verified."
+  }
+]

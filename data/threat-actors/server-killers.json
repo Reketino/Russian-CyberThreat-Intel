@@ -1,0 +1,32 @@
+{
+  "id": "TA-001",
+  "name": "Server Killers",
+  "aliases": ["ServerKillers"],
+  "category": "hacktivist",
+  "claimed_affiliation": "Pro-Russian; reported in public threat-intelligence coverage",
+  "attribution": {
+    "status": "unknown",
+    "confidence": "unknown",
+    "summary": "The public GitHub account uses the ServerKillers name, but the account's control by the group has not been independently verified."
+  },
+  "description": "A group name used in public reporting about pro-Russian hacktivist activity. Treat identity and affiliation claims cautiously and attach sources to each new claim.",
+  "known_activity": [],
+  "digital_footprints": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/ServerKillers",
+      "association_status": "unverified",
+      "notes": "Public profile using the group name; account ownership is not independently verified.",
+      "repositories": [
+        {
+          "name": "Kraken",
+          "url": "https://github.com/ServerKillers/Kraken",
+          "language": "Python",
+          "review_status": "not-reviewed"
+        }
+      ]
+    }
+  ],
+  "source_ids": ["SRC-004", "SRC-005"],
+  "last_updated": "2026-11-06"
+}

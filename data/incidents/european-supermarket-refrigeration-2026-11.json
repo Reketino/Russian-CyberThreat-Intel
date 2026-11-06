@@ -1,0 +1,33 @@
+{
+  "id": "IN-001",
+  "title": "European supermarket refrigeration cyber incidents — November 2026 wave",
+  "date": {
+    "start": "2026-11-02",
+    "end": "2026-11-03",
+    "date_precision": "reported-period"
+  },
+  "status": "under-investigation",
+  "incident_type": ["unauthorized-access", "operational-technology-disruption", "temperature-manipulation"],
+  "summary": "Supermarket refrigeration systems in multiple European countries were reportedly accessed or disrupted, with some units' temperatures raised and perishable stock removed or discarded. Public reporting describes the event as a suspected cyberattack. The precise intrusion method and whether all affected countries were part of one campaign remain unconfirmed.",
+  "affected_sectors": ["retail", "food-supply-chain", "operational-technology"],
+  "affected_countries": ["Belgium", "Estonia", "Ireland", "Luxembourg", "Netherlands", "Sweden"],
+  "impact": [
+    "Some affected refrigeration units reportedly reached approximately 50°C.",
+    "Retailers removed or discarded affected chilled and frozen products as a precaution.",
+    "The full number of affected stores and the relationship between national incidents were not established in the cited reporting."
+  ],
+  "attributions": [
+    {
+      "threat_actor_id": "TA-002",
+      "claim_status": "claimed-responsibility",
+      "assessment": "RTÉ reported that NoName057(16) claimed involvement in posts that were later deleted. The claim has not been independently established."
+    },
+    {
+      "threat_actor_id": "TA-003",
+      "claim_status": "claimed-responsibility",
+      "assessment": "RTÉ reported that Z-Pentest Alliance claimed involvement in posts that were later deleted. The claim has not been independently established."
+    }
+  ],
+  "source_ids": ["SRC-001", "SRC-002", "SRC-003", "SRC-006"],
+  "last_updated": "2026-11-06"
+}
